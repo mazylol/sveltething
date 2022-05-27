@@ -1,5 +1,5 @@
 <script>
-  import Icon from '@iconify/svelte';
+  import MdAccessAlarms from 'svelte-icons/md/MdAccessAlarms.svelte';
 </script>
 
 <svelte:head>
@@ -7,4 +7,6 @@
   <meta name="description" content="A svelte thingy majik!" />
 </svelte:head>
 
-<p class="text-7xl font-extrabold text-blue-500 underline text-center p-5">Hello!</p>
+<div class="text-green-500 mx-auto h-screen">
+  <MdAccessAlarms />
+</div>

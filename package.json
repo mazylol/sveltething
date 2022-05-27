@@ -14,7 +14,6 @@
     "format": "prettier --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@iconify/svelte": "^2.2.1",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/adapter-vercel": "^1.0.0-next.56",
     "@sveltejs/kit": "next",
@@ -28,6 +27,8 @@
     "prettier-plugin-svelte": "^2.5.0",
     "svelte": "^3.44.0",
     "svelte-check": "^2.2.6",
+    "svelte-feather-icons": "^4.0.0",
+    "svelte-icons": "^2.1.0",
     "svelte-preprocess": "^4.10.1",
     "svelte-windicss-preprocess": "^4.2.6",
     "tslib": "^2.3.1",

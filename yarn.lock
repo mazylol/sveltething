@@ -48,11 +48,6 @@
   resolved "https://registry.yarnpkg.com/@iconify/json/-/json-1.1.432.tgz#35c65c90acce30e6f722979b109932d06f9ddcc5"
   integrity sha512-ZcQKCnJXmeKDKxSu4vOFCYkCv8sjX1OASTMQpzqVzt3ivBBDudAYyXJlO4hgk0X4B2R0IMHRNvRgCAYkKDa2eQ==
 
-"@iconify/svelte@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@iconify/svelte/-/svelte-2.2.1.tgz#3515bd97577a6ac9fa2e78f4f7a9574d6d37841c"
-  integrity sha512-eWZq8CRrr3WfnKAj8SWknfE3S/d+j/AzEcypeJaHurS1s4zTdFnkjATcFa8lerGtcX0PAtXiVL94tbIEd69N+w==
-
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/@jridgewell/resolve-uri/-/resolve-uri-3.0.7.tgz#30cd49820a962aff48c8fffc5cd760151fca61fe"
@@ -1872,10 +1867,22 @@ svelte-check@^2.2.6:
     svelte-preprocess "^4.0.0"
     typescript "*"
 
+svelte-feather-icons@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/svelte-feather-icons/-/svelte-feather-icons-4.0.0.tgz#fdffcce3a81782008f7e621cb37a29d041630aef"
+  integrity sha512-4ieUsjp+VYa1r6y80jDt9zRiRUZyJNbESpRdHdJJhiBubyuXX96A7f1UZSK4olxzP6Qsg5ZAuyZlnmvD+/swAA==
+  dependencies:
+    svelte "^3.38.2"
+
 svelte-hmr@^0.14.11:
   version "0.14.11"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.11.tgz#63d532dc9c2c849ab708592f034765fa2502e568"
   integrity sha512-R9CVfX6DXxW1Kn45Jtmx+yUe+sPhrbYSUp7TkzbW0jI5fVPn6lsNG9NEs5dFg5qRhFNAoVdRw5qQDLALNKhwbQ==
+
+svelte-icons@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/svelte-icons/-/svelte-icons-2.1.0.tgz#6f2ec72f1d5c8b2de1a4b8a822c95bcb2f701aca"
+  integrity sha512-rHPQjweEc9fGSnvM0/4gA3pDHwyZyYsC5KhttCZRhSMJfLttJST5Uq0B16Czhw+HQ+HbSOk8kLigMlPs7gZtfg==
 
 svelte-preprocess@^4.0.0, svelte-preprocess@^4.10.1:
   version "4.10.6"
@@ -1900,7 +1907,7 @@ svelte-windicss-preprocess@^4.2.6:
     windicss "3.2.1"
     windicss-runtime-dom "3.0.0"
 
-svelte@^3.44.0:
+svelte@^3.38.2, svelte@^3.44.0:
   version "3.48.0"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.48.0.tgz#f98c866d45e155bad8e1e88f15f9c03cd28753d3"
   integrity sha512-fN2YRm/bGumvjUpu6yI3BpvZnpIm9I6A7HR4oUNYd7ggYyIwSA/BX7DJ+UXXffLp6XNcUijyLvttbPVCYa/3xQ==
