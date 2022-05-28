@@ -7,6 +7,13 @@
   <meta name="description" content="A svelte thingy majik!" />
 </svelte:head>
 
-<div class="text-blue-300 mx-auto h-screen bg-gradient-to-r from-blue-700 to-red-600">
-  <MdAccessAlarms />
+<div class="h-screen bg-gradient-to-r from-blue-700 to-red-600">
+  <div class="text-blue-500 mx-auto h-128">
+    <MdAccessAlarms />
+  </div>
+  <p
+    class="text-gray-300 p-5 text-center text-6xl font-extrabold underline border-b-green-400 border-b-4"
+  >
+    UwU
+  </p>
 </div>
