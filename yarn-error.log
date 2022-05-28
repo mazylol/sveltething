@@ -1,30 +1,30 @@
 Arguments: 
-  /home/gitpod/.nvm/versions/node/v16.15.0/bin/node /home/gitpod/.nvm/versions/node/v16.15.0/bin/yarn add -D @types/svelte-icons
+  /home/mazy/.nvm/versions/node/v18.2.0/bin/node /home/mazy/.local/share/pnpm/global/5/node_modules/yarn/bin/yarn.js add -D @types/svelte-icons/md
 
 PATH: 
-  /workspace/.cargo/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.pyenv/shims:/workspace/go/bin:/home/gitpod/.nix-profile/bin:/ide/bin/remote-cli:/home/gitpod/.nix-profile/bin:/workspace/.cargo/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/workspace/go/bin:/home/gitpod/.nix-profile/bin:/home/gitpod/.nix-profile/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/workspace/.cargo/bin:/home/gitpod/.rvm/gems/ruby-2.7.6/bin:/home/gitpod/.rvm/gems/ruby-2.7.6@global/bin:/home/gitpod/.rvm/rubies/ruby-2.7.6/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/workspace/go/bin:/home/gitpod/.nix-profile/bin:/ide/bin/remote-cli:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/home/gitpod/.nvm/versions/node/v16.15.0/bin:/workspace/.pip-modules/bin:/home/gitpod/.pyenv/bin:/workspace/.rvm/bin:/home/gitpod/.cargo/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/gitpod/.nvm/versions/node/v16.15.0/bin:/home/gitpod/.rvm/bin:/home/gitpod/.rvm/bin:/home/gitpod/.nvm/versions/node/v16.15.0/bin:/home/gitpod/.nvm/versions/node/v16.15.0/bin:/home/gitpod/.rvm/bin:/home/gitpod/.nvm/versions/node/v16.15.0/bin:/home/gitpod/.rvm/bin
+  /home/mazy/.local/share/pnpm:/home/mazy/.nvm/versions/node/v18.2.0/bin:/home/mazy/.cargo/bin/:/home/mazy/.local/share/gem/ruby/3.0.0/bin/:/home/mazy/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
 
 Yarn version: 
   1.22.18
 
 Node version: 
-  16.15.0
+  18.2.0
 
 Platform: 
   linux x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@types%2fsvelte-icons: Not found
-      at Request.params.callback [as _callback] (/home/gitpod/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:66138:18)
-      at Request.self.callback (/home/gitpod/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:140883:22)
+  Error: https://registry.yarnpkg.com/@types%2fsvelte-icons/md: Request "https://registry.yarnpkg.com/@types%2fsvelte-icons/md" returned a 405
+      at params.callback [as _callback] (/home/mazy/.local/share/pnpm/global/5/.pnpm/yarn@1.22.18/node_modules/yarn/lib/cli.js:66147:18)
+      at self.callback (/home/mazy/.local/share/pnpm/global/5/.pnpm/yarn@1.22.18/node_modules/yarn/lib/cli.js:140883:22)
       at Request.emit (node:events:527:28)
-      at Request.<anonymous> (/home/gitpod/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.<anonymous> (/home/mazy/.local/share/pnpm/global/5/.pnpm/yarn@1.22.18/node_modules/yarn/lib/cli.js:141855:10)
       at Request.emit (node:events:527:28)
-      at IncomingMessage.<anonymous> (/home/gitpod/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at IncomingMessage.<anonymous> (/home/mazy/.local/share/pnpm/global/5/.pnpm/yarn@1.22.18/node_modules/yarn/lib/cli.js:141777:12)
       at Object.onceWrapper (node:events:641:28)
       at IncomingMessage.emit (node:events:539:35)
-      at endReadableNT (node:internal/streams/readable:1345:12)
-      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+      at endReadableNT (node:internal/streams/readable:1344:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 
 npm manifest: 
   {
