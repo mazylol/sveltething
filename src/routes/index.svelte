@@ -14,10 +14,12 @@
   <meta name="description" content="Svelte Magic!!!" />
 </svelte:head>
 
-<div class="min-h-screen bg-gray-700">
+<div class="min-h-screen bg-zinc-800">
   <p class="text-center text-5xl text-gray-300 p-5">
-    My age: <span class="font-extrabold bg-gradient-to-r from-orange-500 to-red-700 rounded-md"
-      >{Age()}</span
+    My age: <span
+      class="px-2 py-1 font-extrabold bg-gradient-to-r from-orange-500 to-red-700 rounded-md"
     >
+      {Age()}
+    </span>
   </p>
 </div>

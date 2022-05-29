@@ -1,8 +1,5 @@
-<svelte:head>
-  <title>Mazylol</title>
-  <meta name="description" content="Svelte Magic!!!" />
-</svelte:head>
+<script>
+  import "../app.css";
+</script>
 
 <slot />
-
-<style windi:preflights:global windi:safelist:global></style>
