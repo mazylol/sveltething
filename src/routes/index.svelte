@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Icon from '@iconify/svelte';
+
   function Age() {
     var dob = new Date('09/05/2006');
     var month_diff = Date.now() - dob.getTime();
@@ -22,4 +24,5 @@
       {Age()}
     </span>
   </p>
+  <Icon icon="ant-design:heart-filled" class="text-red-500 mx-auto text-6xl" />
 </div>
