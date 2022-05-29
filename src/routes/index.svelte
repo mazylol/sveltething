@@ -1,19 +1,23 @@
-<script>
-  import MdAccessAlarms from 'svelte-icons/md/MdAccessAlarms.svelte';
+<script lang="ts">
+  function Age() {
+    var dob = new Date('09/05/2006');
+    var month_diff = Date.now() - dob.getTime();
+    var age_dt = new Date(month_diff);
+    var year = age_dt.getUTCFullYear();
+    var age = Math.abs(year - 1970);
+    return age;
+  }
 </script>
 
 <svelte:head>
   <title>Mazylol</title>
-  <meta name="description" content="A svelte thingy majik!" />
+  <meta name="description" content="Svelte Magic!!!" />
 </svelte:head>
 
-<div class="h-screen bg-gradient-to-r from-blue-700 to-red-600">
-  <div class="text-blue-500 mx-auto h-128">
-    <MdAccessAlarms />
-  </div>
-  <p
-    class="text-gray-300 p-5 text-center text-6xl font-extrabold underline border-b-green-400 border-b-4"
-  >
-    UwU
+<div class="min-h-screen bg-gray-700">
+  <p class="text-center text-5xl text-gray-300 p-5">
+    My age: <span class="font-extrabold bg-gradient-to-r from-orange-500 to-red-700 rounded-md"
+      >{Age()}</span
+    >
   </p>
 </div>
